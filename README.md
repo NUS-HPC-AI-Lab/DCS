@@ -80,7 +80,7 @@ python dcs.py \
 
 ---
 
-#### 💻 CLI (Beta)
+### 💻 CLI (Beta)
 
 Adjust `dcs-cli.py` as you need for plug-in deployment and CLI usage. For example, DCS-CLI returns `([1, 13, 13, 14], 30)`, which is applied at inference to correct ICL outpus. This core functionality is made available via:
 
@@ -88,7 +88,7 @@ Adjust `dcs-cli.py` as you need for plug-in deployment and CLI usage. For exampl
 optimal_indices, optimal_weights = deployment_cli_main(config)
 ```
 
-##### ⚙️ Correction Index Mapping
+#### ⚙️ Correction Index Mapping
 
 The mapping table illustrated below contains **19 triangular membership functions** for sample-level correction (**F**) and **30-point weight scale** for class-level correction (**W**).
 
