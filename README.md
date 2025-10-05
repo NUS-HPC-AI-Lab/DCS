@@ -63,6 +63,21 @@ python dcs.py \
 - `--vec_dir`: Initial ICL output class probabilities to be debiased
 
 
+##### 🏁  Experimental Results - SoTA Scores on Overall Accuracy while Maintaining Low COBias
+
+<div align="center">
+<img src="https://drive.google.com/uc?export=view&id=1RiiByGXaj9fR-7W4s5D4cdRL6ZJL4bWf" alt="DCS Sota" width="800"/>
+</div>
+
+
+##### 🏁  Experimental Results - Elevating Weak Classes Need Membership Corrections
+
+<div align="center">
+<img src="https://drive.google.com/uc?export=view&id=1F8kjUUVc5Q0nlOXu9LAFFaTsOrL1BnqP" alt="DCS Weak" width="800"/>
+</div>
+
+
+
 ---
 
 #### 💻 CLI (Beta)
