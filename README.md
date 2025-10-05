@@ -15,7 +15,7 @@
 <sup>1</sup>National University of Singapore
 
 <div align="center">
-<img src="https://drive.google.com/uc?export=view&id=1lc1uIomdaS7JuHjiHdA07WO8AJETs0TM" alt="DCS Flow" width="800"/>
+<img src="https://drive.google.com/uc?export=view&id=1lc1uIomdaS7JuHjiHdA07WO8AJETs0TM" alt="DCS Flow"  width="800"/>
 </div>
 
 
@@ -78,9 +78,8 @@ optimal_indices, optimal_weights = deployment_cli_main(config)
 The mapping table illustrated below contains **19 triangular membership functions** for sample-level correction (**F**) and **30-point weight scale** for class-level correction (**W**).
 
 <div align="center">
-<img src="https://drive.google.com/uc?export=view&id=1IY2J2MlPsgPMGcxH9VT3tyreJtPrFF" width="800"/>
+<img src="https://drive.google.com/uc?export=view&id=15Q12mov5GNIAj9ApMwFkmvdGueDYTStn" alt="DCS Mapping" width="800"/>
 </div>
-
 
 
 *🔵 Important:* Beware that the correction indices used in the paper **begin at 1**, while the code **begins at 0**.
