@@ -1,0 +1,14 @@
+name: dcs
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10         # Adjust as you need
+  - pytorch=2.0.0       # Adjust as you need
+  - pytorch-cuda=11.8   # Adjust as you need
+
+  - pip
+  - pip:
+    - scikit-learn
+    - transformers==4.40.1  # Adjust as you need
