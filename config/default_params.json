@@ -1,0 +1,14 @@
+{
+	"rseed": 1,
+	"T_min": 200,
+	"r_temp": 200000.0,
+	"iter_min": 150,
+	"iter_max": 300,
+	"n_out_loop": 200,
+	"n_in_loop": 1500,
+	"low_tem": 0.95,
+	"k": 4000,
+	"beta": 0.3,
+	"tau": 0.2,
+	"num_w": 30
+}
