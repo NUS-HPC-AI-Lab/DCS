@@ -50,7 +50,7 @@ DCS dynamically chooses the correction type of each output ICL class for you. Th
 
 #### 📘 Run Experiments
 
-Run `dcs.py` to obtain experimental results on reducing class accuracy differences and enhancing overall accuracy. Our paper exprimented with three ICL settings: 1-shot, 5-shot, and N-shot. Use `vectors` directory to obtain initial ICL outputs.
+Run `dcs.py` to obtain experimental results on reducing class accuracy differences and enhancing overall accuracy. Our paper exprimented with three ICL settings: 1-shot, 5-shot, and N-shot. Use `vectors` directory to obtain initial ICL outputs. In `config/default_params.json`, `iter_min` and `inter_max` correspond to the inner loop stopping criteria of the minimal number of accepted solutions and the minimal number of solutions generated, respectively, and we set them to 3 and 6. You may try larger values in your experiments, e.g., set `iter_min` to 150 and `inter_max` to 300 (Note that the annealing time will be longer).
 
 ```bash
 python dcs.py \
